@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mon site</title>
+        <link rel="stylesheet" href="css/css_Dueliste.css">
+    </head>
+    <body>
+        <header>
+            <h1>
+                Valorant Fandom
+            </h1>
+            <h1>
+                <a href="SAE_agents.hmtl" class="AgentsStyle">Agents</a>
+            </h1>
+            <p>
+                Dueliste
+                <a href="SAE_Controleur.hmtl"><img src="images/ClasseControleur.webp" alt="Controleur" class="premiereImage"></a>
+                <a href="SAE_Dueliste.hmtl"><img src="images/ClasseDuelliste.webp" alt="Dueliste"></a>
+                <a href="SAE_Iniatieur.hmtl"><img src="images/ClasseInitiateur.webp" alt="Initiateur"></a>
+                <a href="SAE_Sentinelle.hmtl"><img src="images/ClasseSentinelle.webp" alt="Sentinelle"></a>
+            </p>
+        </header>
+        <section>
+            <h2>Liste des Duelistes</h2>
+            <ul>
+                <li><img src="images/30_Agents/Capture d’écran du 2026-11-23 10-49-57.png" alt="IconesAgents" class="IconesAgents"><a href="Waylay.hmtl" class="AgentsStyle">Waylay</a></li>
+                <li><img src="images/30_Agents/Capture d’écran du 2026-11-23 10-47-32.png" alt="IconesAgents" class="IconesAgents"><a href="Raze.hmtl" class="AgentsStyle">Raze</a></li>
+                <li><img src="images/30_Agents/Capture d’écran du 2026-11-23 10-47-47.png" alt="IconesAgents" class="IconesAgents"><a href="Reyna.hmtl" class="AgentsStyle">Reyna</a></li>
+                <li><img src="images/30_Agents/Capture d’écran du 2026-11-23 10-47-19.png" alt="IconesAgents" class="IconesAgents"><a href="Phoenix.hmtl" class="AgentsStyle">Phoenix</a></li>
+                <li><img src="images/30_Agents/Capture d’écran du 2026-11-23 10-46-44.png" alt="IconesAgents" class="IconesAgents"><a href="Neon.hmtl" class="AgentsStyle">Neon</a></li>
+                <li><img src="images/30_Agents/Capture d’écran du 2026-11-23 10-45-23.png" alt="IconesAgents" class="IconesAgents"><a href="Jett.hmtl" class="AgentsStyle">Jett</a></li>
+                <li><img src="images/30_Agents/Capture d’écran du 2026-11-23 10-43-49.png" alt="IconesAgents" class="IconesAgents"><a href="Iso.hmtl" class="AgentsStyle">Iso</a></li>
+                <li><img src="images/30_Agents/Capture d’écran du 2026-11-23 10-50-09.png" alt="IconesAgents" class="IconesAgents"><a href="Yoru.hmtl" class="AgentsStyle">Yoru</a></li>
+                <li><img src="images/30_Agents/Capture d’écran du 2026-11-23 10-43-38.png" alt="IconesAgents"class="IconesAgents"><a href="Hush.hmtl" class="AgentsStyle">Hush</a></li>
+            </ul>
+        </section>
+
+    </body>
+</html>
