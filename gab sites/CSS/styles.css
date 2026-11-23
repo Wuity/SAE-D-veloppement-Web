@@ -1,0 +1,145 @@
+#astrabody {
+    background-image : url('Images/astraback.jpeg');
+    color : white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#brimbody {
+    background-image : url('Images/brimback.jpeg');
+    color : white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#omenbody {
+    background-image : url('Images/omenback.jpeg');
+    color : white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#miksbody {
+    background-image : url('Images/miksback.jpeg');
+    color : white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#clovebody {
+    background-image : url('Images/cloveback.jpeg');
+    color : white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#viperbody {
+    background-image : url('Images/viperback.jpeg');
+    color : white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#harborbody {
+    background-image : url('Images/harborback.jpeg');
+    color : white;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    position: sticky;
+    top : 0;
+    width : 100%;
+    display : flex;
+    align-items : center;
+    gap : 0.7%;
+    backdrop-filter: blur(20px); 
+    border : 2px solid #e0e0e0;   
+}
+.AgentsStyle {
+    color: inherit;
+    text-decoration: none;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.classesPetite{
+    width: 150%;
+    margin-left: 30%;
+}
+.classesGrande{
+    width: 50%;
+    margin-left: 40%;
+}
+
+p{
+    margin-left: 5%;
+    font-size: 200%;
+    color: white;
+    font-weight: bold;
+}
+
+h1{
+    border: 4px solid #e0e0e0;
+    border-left: transparent;
+    border-bottom: transparent;
+    border-top: transparent;
+    color: #ece8e1;
+    margin-left: 3%;
+    padding-right: 1%;
+}
+
+.nom {
+    padding-right : 55%;
+}
+
+section {
+    position :absolute;
+    overflow-y: auto;
+    top : 15%;
+    height: 85%;
+    width : 100%;
+    left : 20%;
+    background-size: 25%;
+    background-repeat: no-repeat;
+    background-position-y: 10%;
+}
+.designastra{
+    background-image: url("Images/design_astra.jpeg"); 
+}
+.designbrimstone{
+    background-image: url("Images/design_brimstone.jpeg"); 
+}
+.designomen{
+    background-image: url("Images/design_omen.jpeg"); 
+}
+.designmiks{
+    background-image: url("Images/design_miks.jpeg"); 
+}
+.designviper{
+    background-image: url("Images/design_viper.jpeg"); 
+}
+.designclove{
+    background-image: url("Images/design_clove.jpeg"); 
+}
+.designharbor{
+    background-image: url("Images/design_harbor.jpeg"); 
+}
+dl {  
+  position :sticky;
+  left : 36%;    
+  max-width: 33%;      
+  padding: 20px;
+  backdrop-filter: blur(3px);
+}
+dt{
+    color : white;
+    margin-left: 5%;
+    font-size : 30px;
+    font-style: bold;
+}
+dd {
+    text-align: center;
+    color : white;
+    background-color: rgba(0, 0, 0, 0.6);      
+    border: 4px solid #e0e0e0;
+    border-radius: 8px;             
+    padding: 20px;                 
+    margin-bottom: 30px;      
+    max-width: 60%;      
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
