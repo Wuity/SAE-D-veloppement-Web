@@ -1,0 +1,162 @@
+header{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    border : 4px solid transparent;
+    padding: 16px 32px;
+    backdrop-filter: blur(10px);
+}
+h1{
+    border: 4px solid #ECE8E1;
+    color:white;
+    font-family: "Barlow", Arial, sans-serif;
+    padding-right: 16px;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-left: transparent;
+    
+}
+#menu{
+    width: 400px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#ff6b77;
+    background-color: #ECE8E1;
+    border: 2px solid #ECE8E1;
+    border-radius: 8px;
+    padding: 10px 44px 10px 16px;
+    cursor:pointer;
+}
+
+#menu:hover{
+    background-color: #1c2a38;
+}
+
+#menu:focus{
+    outline: none;
+    border-color: #ECE8E1;
+}
+
+#menu option{
+    background-color: #0F1923;
+    color: #ECE8E1;
+}
+
+.btn-login,
+.btn-signup{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Barlow", Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    padding: 10px 28px;
+    border: 2px solid;
+    border-radius:8px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.btn-login {
+    background-color: #ff6b77;
+    border-color: #ff6b77;
+    color:#ECE8E1;
+    margin-left: auto;
+}
+
+.btn-login:hover {
+    background-color: #ECE8E1;
+    border-color: #ff6b77;
+    color: #ff6b77;
+}
+
+.btn-signup {
+    background-color: #ECE8E1;
+    border-color: #ECE8E1;
+    color: #ff6b77;
+}
+
+.btn-signup:hover {
+    background-color: #FF4655;
+    color: #ECE8E1;
+}
+
+body{
+    background-image : url(../Images/Valorant_Cover_Art_122e62a9-938d-47cb-8399-bc84cfa0cf39.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    min-height: max(100vh, 700px);
+    display: flex;
+    flex-direction: column;
+}
+
+dl{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap : 0px 20px;
+    margin: 450px 20px 20px 20px;
+}
+
+dt{
+    margin:0;
+    min-height: 20px;
+    padding: 3%;
+    color:white;
+    font-family: "Barlow", Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+    text-align: center;
+    background-color: rgba(255, 70, 85, 0.7);
+    border: 1px solid rgba(255, 70, 85, 0.6);
+    border-radius: 16px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-bottom: transparent;
+}
+
+dd{
+    margin:0;
+    max-height: 200px;
+    min-height: 200px;
+    overflow-y: auto;
+    scrollbar-color: #ECE8E1 transparent;
+    padding: 20px;
+    padding-top: 0%;
+    color:white;
+    font-family: "Barlow", Arial, sans-serif;
+    text-align : center;
+    background-color: rgba(255, 70, 85, 0.7);
+    border: 1px solid rgba(255, 70, 85, 0.6);
+    border-radius: 16px;
+    border-top:transparent;
+    border-top-left-radius: 0%;
+    border-top-right-radius: 0%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px 36px;
+    border: 1px solid transparent;
+    backdrop-filter: blur(10px);
+}
+
+.btn_aboutus,
+.btn_contact{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Barlow", Arial, sans-serif;
+    color: #ECE8E1;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
