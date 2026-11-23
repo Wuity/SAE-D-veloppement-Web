@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <title>Contactez nous</title>
+    <link rel="stylesheet" href="Contact_us.css">
+</head>
+<body>
+    <header>
+        <h1> Valorant Fandom </h1>
+        <label for="menu"></label>
+        <select id="menu" name="menu">
+            <option value="base">Search...</option>
+            <option value="agent">Agent</option>
+            <option value="histoire">Histoire</option>
+        </select>
+        <a href="connexion.html" class="btn-login">Log in</a>
+        <a href="inscription.html" class="btn-signup">Sign up</a>
+    </header>
+    <h2>Contact us</h2>
+    <h3>Commentaire</h3>
+
+    <form action="https://formspree.io/f/mwlowbnp" method="post" class="form-avis" autocomplete="off">
+        <h4>Donnez-nous votre avis sur notre site</h4>
+        <label for="nom">Pseudo</label>
+        <input type="text" id="nom" name="nom" required>
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required>
+        <fieldset>
+            <legend>Quelle note nous mettez vous ?</legend>
+            <label><input type="radio" name="note" value="1" required> 1</label>
+            <label><input type="radio" name="note" value="2" > 2</label>
+            <label><input type="radio" name="note" value="3" > 3</label>
+            <label><input type="radio" name="note" value="4" > 4</label>
+            <label><input type="radio" name="note" value="5" > 5</label>
+        </fieldset>
+
+        <label for="sujet">Sujet</label>
+        <select id="sujet" name="sujet">
+            <option value="bug">Bug</option>
+            <option value="ajout">Ajout</option>
+            <option value="autre">Autre</option>
+        </select>
+        
+        <label for="message">Votre Message</label>
+        <textarea id="message" name="message" rows="5" maxlength="1000" required></textarea>
+        <button type="envoyer">Envoyer</button>
+    </form>
+
+    <h5>Nous retrouver :</h5>
+    <dd>
+        <dt>Bastien Duplaix :</dt>
+        <dl><a href="https://github.com/Wuity" class="liengit">https://github.com/Wuity</a></dl>
+        <dt>Yanis Lamirault :</dt>
+        <dl><a href="https://github.com/Yayaleroux" class="liengit">https://github.com/Yayaleroux</a></dl>
+        <dt>Gabriel Mantin</dt>
+        <dl><a href="https://github.com/xAriseNx" class="liengit">https://github.com/xAriseNx</a></dl>
+    </dd>
+</body>

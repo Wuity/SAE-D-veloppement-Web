@@ -1,0 +1,252 @@
+header{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top:0;
+    gap: 32px;
+    border : 4px solid transparent;
+    padding: 16px 32px;
+    backdrop-filter: blur(10px);
+}
+h1{
+    border: 4px solid #ECE8E1;
+    color:white;
+    font-family: "Barlow", Arial, sans-serif;
+    padding-right: 16px;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-left: transparent; 
+}
+
+h2{
+    color: white;
+    font-family: "Barlow", Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-top: 5%;
+}
+
+h3{
+    margin: 0;
+    padding-top: 38px;;
+    color: white;
+    font-family: "Barlow", Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+h5{
+    margin:0;
+    padding-top: 38px;
+    color:white;
+    font-family: "Barlow", Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+
+}
+
+#menu{
+    width: 400px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    color:#ff6b77;
+    background-color: #ECE8E1;
+    border: 2px solid #ECE8E1;
+    border-radius: 8px;
+    padding: 10px 44px 10px 16px;
+    cursor:pointer;
+}
+
+#menu:hover{
+    background-color: #1c2a38;
+}
+
+#menu:focus{
+    outline: none;
+    border-color: #ECE8E1;
+}
+
+#menu option{
+    background-color: #0F1923;
+    color: #ECE8E1;
+}
+
+.btn-login,
+.btn-signup{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Barlow", Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    padding: 10px 28px;
+    border: 2px solid;
+    border-radius:8px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.btn-login {
+    background-color: #ff6b77;
+    border-color: #ff6b77;
+    color:#ECE8E1;
+    margin-left: auto;
+}
+
+.btn-login:hover {
+    background-color: #ECE8E1;
+    border-color: #ff6b77;
+    color: #ff6b77;
+}
+
+.btn-signup {
+    background-color: #ECE8E1;
+    border-color: #ECE8E1;
+    color: #ff6b77;
+}
+
+.btn-signup:hover {
+    background-color: #FF4655;
+    color: #ECE8E1;
+}
+
+body{
+    background-image : url(../Images/Sova_wallpaper.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    min-height: max(100vh, 700px);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 38px;
+}
+
+h4{
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Barlow", Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+label{
+    color: white;
+    font-family: "Barlow", Arial, sans-serif;
+    font-size: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: auto auto 48px auto;
+    font-family: "Barlow", Arial, sans-serif;
+}
+
+
+#nom,
+#email{
+    color:#0F1923;
+    max-height: 20px;
+    font-size: 18px;
+    font-family: "Barlow", Arial, sans-serif;
+    text-align: center;
+    padding: auto;
+    border: transparent;
+    border-radius: 18px;
+}
+
+#nom:focus,
+#email:focus{
+    border: 2px solid transparent;
+}
+
+legend{
+    color: white;
+}
+
+input[type="radio"]{
+    accent-color: red;
+}
+
+#sujet{
+    color:#ff6b77;
+    height: 36px;
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid transparent;
+    border-radius: 12px;
+
+}
+
+#sujet:hover{
+    background-color:#1c2a38 ;
+}
+
+textarea{
+    width: 40%;
+    height: 32%;
+    font-family: "Barlow", Arial, sans-serif;
+
+}
+
+a{
+    color:white;
+}
+
+dl{
+    display: grid;
+    grid-template-rows: repeat(1, 1fr);
+    gap : 0px;
+    margin: auto;
+}
+
+dt{
+    margin:0;
+    padding: 3%;
+    padding-bottom: 1%;
+    color:white;
+    font-family: "Barlow", Arial, sans-serif;
+    text-align: center;
+}
+
+dd{
+    margin: 0;
+    padding: 10px;
+    padding-top: 0%;
+    color:white;
+    font-family: "Barlow", Arial, sans-serif;
+    text-align: center;
+
+}
+
+button{
+    color:red;
+    text-align: center;
+    font-family: "Barlow", Arial, sans-serif;
+    height: 32px;
+    width: 98px;
+
+}
+
+button:hover{
+    background-color: #0F1923;
+}
+
+hmtl{
+    scroll-behavior: smooth;
+}
