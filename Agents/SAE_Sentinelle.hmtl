@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mon site</title>
+        <link rel="stylesheet" href="css/css_Sentinelle.css">
+    </head>
+    <body>
+        <header>
+            <h1>
+                Valorant Fandom
+            </h1>
+            <h1>
+                <a href="SAE_agents.hmtl" class="AgentsStyle">Agents</a>
+            </h1>
+            <p>
+                Sentinelle
+                <a href="SAE_Controleur.hmtl"><img src="images/ClasseContr_leur.webp" alt="Ta" class="premiereImage"></a>
+                <a href="SAE_Dueliste.hmtl"><img src="images/ClasseDuelliste.webp" alt="Ta"></a>
+                <a href="SAE_Iniatieur.hmtl"><img src="images/ClasseInitiateur.webp" alt="Ta"></a>
+                <a href="SAE_Sentinelle.hmtl"><img src="images/ClasseSentinelle.webp" alt="Ta"></a>
+            </p>
+        </header>
+        <section>
+            Liste des Sentinelles
+            <ul>
+                <li>Cypher</li>
+                <li>Sage</li>
+                <li>Killjoy</li>
+                <li>Chamber</li>
+                <li>Deadlock</li>
+                <li>Vyse</li>
+                <li>Veto</li>
+            </ul>
+        </section>
+
+    </body>
+</html>

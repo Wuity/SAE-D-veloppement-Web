@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Mon site</title>
+        <link rel="stylesheet" href="css/css_agents.css">
+    </head>
+    <body>
+        <header>
+            <h1>
+                Valorant Fandom
+            </h1>
+            <p>
+                <a href="SAE_agents.hmtl" class="AgentsStyle">Agents</a>
+                <a href="SAE_Controleur.hmtl"><img src="images/ClasseContr_leur.webp" alt="Ta" class="premiereImage"></a>
+                <a href="SAE_Dueliste.hmtl"><img src="images/ClasseDuelliste.webp" alt="Ta"></a>
+                <a href="SAE_Iniatieur.hmtl"><img src="images/ClasseInitiateur.webp" alt="Ta"></a>
+                <a href="SAE_Sentinelle.hmtl"><img src="images/ClasseSentinelle.webp" alt="Ta"></a>
+            </p>
+        </header>
+        <dl>
+            <dt>
+                Initiateur
+                <dd>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since 1966, 
+                    when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, 
+                    took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. 
+                    It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                    It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus 
+                    PageMaker and Microsoft Word including versions of Lorem Ipsum.</dd>
+            </dt>
+
+            <dt>
+                Dueliste
+                <dd>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since 1966, 
+                    when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, 
+                    took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. 
+                    It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                    It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus 
+                    PageMaker and Microsoft Word including versions of Lorem Ipsum.</dd>
+            </dt>
+            <dt>
+                Controleur
+                <dd>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since 1966, 
+                    when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, 
+                    took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. 
+                    It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                    It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus 
+                    PageMaker and Microsoft Word including versions of Lorem Ipsum.</dd>
+            </dt>
+            <dt>
+                Sentinelle
+                <dd>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                    Lorem Ipsum has been the industry's standard dummy text ever since 1966, 
+                    when designers at Letraset and James Mosley, the librarian at St Bride Printing Library in London, 
+                    took a 1914 Cicero translation and scrambled it to make dummy text for Letraset's Body Type sheets. 
+                    It has survived not only many decades, but also the leap into electronic typesetting, remaining essentially unchanged. 
+                    It was popularised thanks to these sheets and more recently with desktop publishing software like Aldus 
+                    PageMaker and Microsoft Word including versions of Lorem Ipsum.</dd>
+            </dt>
+        </dl>
+    </body>
+</html>
