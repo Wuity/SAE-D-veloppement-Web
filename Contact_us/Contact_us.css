@@ -18,6 +18,11 @@ h1{
     border-left: transparent; 
 }
 
+.valofan{
+    color: #ECE8E1;
+    text-decoration: none;
+}
+
 h2{
     color: white;
     font-family: "Barlow", Arial, sans-serif;

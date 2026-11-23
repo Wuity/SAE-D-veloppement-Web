@@ -19,6 +19,11 @@ h1{
     
 }
 
+.valofan{
+    color:#ECE8E1;
+    text-decoration: none;
+}
+
 .menu{
     position: relative;
     flex: 1;
