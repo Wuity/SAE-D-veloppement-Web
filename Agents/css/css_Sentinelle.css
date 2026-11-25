@@ -105,6 +105,7 @@ dl {
 
 section {
     color: white;
+    font-family: "Barlow", Arial, sans-serif;
     background-color: rgba(255, 0, 0, 0.4);
     border: 1px solid #e0e0e0;
     border-radius: 8px;
