@@ -181,6 +181,7 @@ footer{
     padding: 20px 36px;
     border: 1px solid transparent;
     backdrop-filter: blur(10px);
+    background-color: black;
 }
 
 .btn_aboutus,

@@ -1,44 +1,30 @@
-#astrabody {
-    background-image : url('Images/astraback.jpeg');
+body{
     color : white;
     background-size: cover;
     background-attachment: fixed;
+    font-family: "Barlow Condensed", Arial, sans-serif;
+}
+
+#astrabody {
+    background-image : url('Images/astraback.jpeg');
 }
 #brimbody {
     background-image : url('Images/brimback.jpeg');
-    color : white;
-    background-size: cover;
-    background-attachment: fixed;
 }
 #omenbody {
     background-image : url('Images/omenback.jpeg');
-    color : white;
-    background-size: cover;
-    background-attachment: fixed;
 }
 #miksbody {
     background-image : url('Images/miksback.jpeg');
-    color : white;
-    background-size: cover;
-    background-attachment: fixed;
 }
 #clovebody {
     background-image : url('Images/cloveback.jpeg');
-    color : white;
-    background-size: cover;
-    background-attachment: fixed;
 }
 #viperbody {
     background-image : url('Images/viperback.jpeg');
-    color : white;
-    background-size: cover;
-    background-attachment: fixed;
 }
 #harborbody {
     background-image : url('Images/harborback.jpeg');
-    color : white;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
 header {
@@ -47,8 +33,9 @@ header {
     width : 100%;
     display : flex;
     align-items : center;
-    gap : 0.7%;
-    backdrop-filter: blur(20px); 
+    gap : 32px;
+    background-color: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(50px); 
     border : 2px solid #e0e0e0;   
 }
 
@@ -65,7 +52,7 @@ header {
 }
 .classesPetite{
     width: 150%;
-    margin-left: 30%;
+    margin-left: 20%;
 }
 .classesGrande{
     width: 50%;
@@ -98,29 +85,29 @@ h2{
     border-top: transparent;
     border-bottom: transparent;
     padding-right: 1vw;
-
 }
 
 h3{
     margin: 0;
     color: #e0e0e0;
-    font-size: 32px;
+    font-size: 60px;
 }
 
 .nom {
-    padding-right : 55%;
+    padding-left : 22%;
+    padding-right : 27%;
+    text-align : center;
 }
 
 section {
     position :absolute;
     overflow-y: auto;
-    top : 15%;
+    bottom: 2%;
     height: 85%;
     width : 100%;
     left : 20%;
     background-size: 25%;
     background-repeat: no-repeat;
-    background-position-y: 10%;
 }
 .designastra{
     background-image: url("Images/design_astra.jpeg"); 
