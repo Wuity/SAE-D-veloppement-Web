@@ -1,5 +1,6 @@
 header {
     display:flex;
+    font-family: "Barlow", Arial, sans-serif;
     align-items: center;
     gap: 10px;
     border: 5px solid #e0e0e0;
@@ -97,6 +98,7 @@ dd:nth-of-type(4){
 }
 dl {
   display: grid;
+  font-family: "Barlow", Arial, sans-serif;
   grid-template-columns: repeat(2, 1fr);
   gap: 10px
 }
