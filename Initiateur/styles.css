@@ -1,0 +1,156 @@
+body{
+    color : white;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Barlow Condensed", Arial, sans-serif;
+}
+
+#breachbody {
+    background-image : url('Images/breachback.jpeg');
+}
+#fadebody {
+    background-image : url('Images/fadeback.jpeg');
+}
+#gekkobody {
+    background-image : url('Images/gekkoback.jpeg');
+}
+#kayobody {
+    background-image : url('Images/kayoback.jpeg');
+}
+#sovabody {
+    background-image : url('Images/sovaback.jpeg');
+}
+#skyebody {
+    background-image : url('Images/skyeback.jpeg');
+}
+#tejobody {
+    background-image : url('Images/tejoback.jpeg');
+}
+
+header {
+    position: sticky;
+    top : 0;
+    width : 100%;
+    display : flex;
+    align-items : center;
+    gap : 32px;
+    background-color: rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(50px); 
+    border : 2px solid #e0e0e0;   
+}
+
+.valofan{
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+.AgentsStyle {
+    color: inherit;
+    text-decoration: none;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+.classesPetite{
+    width: 150%;
+    margin-left: 20%;
+}
+.classesGrande{
+    width: 50%;
+    margin-left: 40%;
+}
+
+p{
+    margin-left: 5%;
+    font-size: 200%;
+    color: white;
+    font-weight: bold;
+}
+
+h1{
+    border: 4px solid #e0e0e0;
+    border-left: transparent;
+    border-bottom: transparent;
+    border-top: transparent;
+    color: #ece8e1;
+    margin-left: 3%;
+    padding-right: 1%;
+}
+
+h2{
+    margin: 0;
+    color: #e0e0e0;
+    font-size: 32px;
+    border : 4px solid #e0e0e0;
+    border-left: transparent;
+    border-top: transparent;
+    border-bottom: transparent;
+    padding-right: 1vw;
+}
+
+h3{
+    margin: 0;
+    color: #e0e0e0;
+    font-size: 60px;
+}
+
+.nom {
+    padding-left : 22%;
+    padding-right : 27%;
+    text-align : center;
+}
+
+section {
+    position :absolute;
+    overflow-y: auto;
+    bottom: 2%;
+    height: 85%;
+    width : 100%;
+    left : 20%;
+    background-size: 25%;
+    background-repeat: no-repeat;
+}
+.designbreach{
+    background-image: url("Images/design_breach.jpeg"); 
+}
+.designfade{
+    background-image: url("Images/design_fadestone.jpeg"); 
+}
+.designgekko{
+    background-image: url("Images/design_gekko.jpeg"); 
+}
+.designkayo{
+    background-image: url("Images/design_kayo.jpeg"); 
+}
+.designskye{
+    background-image: url("Images/design_skye.jpeg"); 
+}
+.designsova{
+    background-image: url("Images/design_sova.jpeg"); 
+}
+.designtejo{
+    background-image: url("Images/design_tejo.jpeg"); 
+}
+dl {  
+  position :sticky;
+  left : 36%;    
+  max-width: 33%;      
+  padding: 20px;
+  backdrop-filter: blur(3px);
+}
+dt{
+    color : white;
+    margin-left: 5%;
+    font-size : 30px;
+    font-style: bold;
+}
+dd {
+    text-align: center;
+    color : white;
+    background-color: rgba(0, 0, 0, 0.6);      
+    border: 4px solid #e0e0e0;
+    border-radius: 8px;             
+    padding: 20px;                 
+    margin-bottom: 30px;      
+    max-width: 60%;      
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
