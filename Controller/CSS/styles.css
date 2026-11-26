@@ -1,54 +1,32 @@
 body{
     color : white;
     font-family: "Barlow Condensed", Arial, sans-serif;
-}
-
-#astrabody::before,
-#brimbody::before,
-#omenbody::before,
-#miksbody::before,
-#clovebody::before,
-#viperbody::before,
-#harborbody::before {
-    content: "";
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
 }
 
 
-#astrabody::before {
+#astrabody{
     background-image : url('Images/astraback.jpeg');
-    transform: rotate(180deg);
 }
-#brimbody::before {
+#brimbody {
     background-image : url('Images/brimback.jpeg');
-    transform: rotate(180deg);
 }
-#omenbody::before {
+#omenbody{
     background-image : url('Images/omenback.jpeg');
-    transform: rotate(180deg);
 }
-#miksbody::before {
+#miksbody {
     background-image : url('Images/miksback.jpeg');
-    transform: rotate(180deg);
 }
-#clovebody::before {
+#clovebody {
     background-image : url('Images/cloveback.jpeg');
-    transform: rotate(180deg);
 }
-#viperbody::before {
+#viperbody{
     background-image : url('Images/viperback.jpeg');
-    transform: rotate(180deg);
 }
-#harborbody::before {
+#harborbody{
     background-image : url('Images/harborback.jpeg');
-    transform: rotate(180deg);
 }
 
 header {
@@ -126,7 +104,7 @@ h3{
 }
 
 .nom {
-    padding-left : 22%;
+    padding-left : 20%;
     padding-right : 27%;
     text-align : center;
 }
