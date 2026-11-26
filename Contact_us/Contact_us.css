@@ -57,6 +57,25 @@ h5{
 
 }
 
+p {
+    color:white;
+    font-family: "Barlow", Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.lieninsta {
+    color: white;
+    font-family: "Barlow", Arial, sans-serif;
+    font-size: 18px;
+}
+
+.liengit {
+    color: white;
+    font-family: "Barlow", Arial, sans-serif;
+    font-size: 18px;
+}
+
 .menu{
     position: relative;
     flex: 1;
@@ -181,6 +200,10 @@ form{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: rgba(15, 25, 35, 0.8);
+    border: 2px solid #FF4655;
+    border-radius: 16px;
+    margin: auto;
     gap: 16px;
     padding: auto auto 48px auto;
     font-family: "Barlow", Arial, sans-serif;
@@ -234,9 +257,6 @@ textarea{
 
 }
 
-a{
-    color:white;
-}
 
 dl{
     display: grid;
@@ -250,6 +270,7 @@ dt{
     padding: 3%;
     padding-bottom: 1%;
     color:white;
+    font-size : 22px;
     font-family: "Barlow", Arial, sans-serif;
     text-align: center;
 }

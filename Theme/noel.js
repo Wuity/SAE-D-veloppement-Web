@@ -5,7 +5,7 @@ function activerNoel() {
   const link = document.createElement("link");
   link.id = "noel-css";
   link.rel = "stylesheet";
-  link.href = new URL("css_noel.css", dossierScript).href;  // même dossier que noel.js
+  link.href = new URL("css_noel.css", dossierScript).href;
   document.head.appendChild(link);
 }
 
