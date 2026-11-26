@@ -115,7 +115,7 @@ h1{
     color: #ECE8E1;
 }
 
-.video-acceuil video {
+.video-accueil video {
     width: 100%;
     max-width: 800px;
     display: block;
@@ -127,7 +127,7 @@ video::cue {
     font-family: "Barlow", Arial, sans-serif;
     font-size: 20px;
     color: #ECE8E1;
-    background-color: rgba(15, 25, 35, 0,8);
+    background-color: rgba(15, 25, 35, 0.8);
 }
 
 body{
