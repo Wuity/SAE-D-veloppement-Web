@@ -7,3 +7,6 @@ Pour les fond d'écrans de la page d'accueil, du contact us et du about us :
 https://in.pinterest.com/rshivansh094/valorant/
 https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Falphacoders.com%2Fsova-(valorant)-wallpapers&ved=0CBcQjRxqFwoTCMil_vKsppgDFQAAAAAdAAAAABBq&opi=89978449
 https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwiki.playvalorant.com%2Fen-us%2FVALORANT&ved=0CBcQjRxqFwoTCLjc6YatppgDFQAAAAAdAAAAABAQ&opi=89978449
+
+Pour la documentation, nous avons utilisé le site de ma MDN :
+https://developer.mozilla.org/fr/docs/Web/HTML
