@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Accueil</title>
+    <link rel="stylesheet" href="about_us.css">
+    <script src="../Theme/noel.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500&display=swap" rel="stylesheet"> 
+</head>
+
+<body>
+    <header>
+        <h1><a href="../index.html" class="valofan">Valorant Fandom</a></h1>
+        <nav class="menu">
+            <span class="menu-titre">Menu</span>
+            <ul class="menu-liste">
+                <li><a href="../Agents/SAE_agents.html">Agents</a></li>
+            </ul>
+        </nav>
+        <a href="#indisponible" class="btn-login">Log in</a>
+        <a href="#indisponible" class="btn-signup">Sign up</a>
+        <button onclick="toggleNoel()">Noël</button>
+    </header>
+
+    <h2>À propos de nous</h2>
+    <p>Bienvenue sur notre site que nous avons choisi de dédier au jeu-vidéo Valorant et à sa communauté!</br>
+        Nous sommes étudiants en informatique et avons créé ce site dans le cadre d'un projet.</br>
+        Nous sommes nous mêmes passionés par ce jeu et avons voulu créer un site qui permettrait de rassembler les informations sur les agents, les cartes et les dernières mises à jour du jeu.</br>
+    </p>
+    
+    <aside id="indisponible" class="popup">
+       <a href="#fermer" class="popup-fond" aria-label="Fermer la fenêtre"></a>
+       <section class="popup-boite" role="dialog" aria-modal="true" aria-labelledby="popup-titre">
+           <p id="popup-titre" class="popup-titre">Bientôt disponible</p>
+           <p>Le système de connexion et d'inscription n'est pas encore disponible.</p>
+           <a href="#fermer" class="popup-fermer">Fermer</a>
+       </section>
+    </aside>
+    <footer>
+        <a href="../Contact_us/Contact_us.html" class="btn_contact">Contact us</a>
+        <a href="about_us.html" class="btn_aboutus">About us</a>
+    </footer>
+</body>
