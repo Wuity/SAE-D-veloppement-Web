@@ -1,56 +1,57 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <title>Accueil</title>
-    <link rel="stylesheet" href="accueil.css">
-    <script src="Theme/noel.js"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500&display=swap" rel="stylesheet"> 
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <title>Accueil</title>
+        <link rel="stylesheet" href="accueil.css">
+        <script src="Theme/noel.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500&display=swap" rel="stylesheet"> 
+    </head>
 
-<body>
-    <header>
-        <h1><a href="index.html" class="valofan">Valorant Fandom</a></h1>
-        <nav class="menu">
-            <span class="menu-titre">Menu</span>
-            <ul class="menu-liste">
-                <li><a href="Agents/SAE_agents.html">Agents</a></li>
-            </ul>
-        </nav>
-        <a href="#indisponible" class="btn-login">Log in</a>
-        <a href="#indisponible" class="btn-signup">Sign up</a>
-        <button onclick="toggleNoel()">Noël</button>
-    </header>
-    
-    <aside id="indisponible" class="popup">
-       <a href="#fermer" class="popup-fond" aria-label="Fermer la fenêtre"></a>
-       <section class="popup-boite" role="dialog" aria-modal="true" aria-labelledby="popup-titre">
-           <p id="popup-titre" class="popup-titre">Bientôt disponible</p>
-           <p>Le système de connexion et d'inscription n'est pas encore disponible.</p>
-           <a href="#fermer" class="popup-fermer">Fermer</a>
-       </section>
-    </aside>
+    <body>
+        <header>
+            <h1><a href="index.html" class="valofan">Valorant Fandom</a></h1>
+            <nav class="menu">
+                <span class="menu-titre">Menu</span>
+                <ul class="menu-liste">
+                    <li><a href="Agents/SAE_agents.html">Agents</a></li>
+                </ul>
+            </nav>
+            <a href="#indisponible" class="btn-login">Log in</a>
+            <a href="#indisponible" class="btn-signup">Sign up</a>
+            <button onclick="toggleNoel()">Noël</button>
+        </header>
+        
+        <aside id="indisponible" class="popup">
+        <a href="#fermer" class="popup-fond" aria-label="Fermer la fenêtre"></a>
+        <section class="popup-boite" role="dialog" aria-modal="true" aria-labelledby="popup-titre">
+            <p id="popup-titre" class="popup-titre">Bientôt disponible</p>
+            <p>Le système de connexion et d'inscription n'est pas encore disponible.</p>
+            <a href="#fermer" class="popup-fermer">Fermer</a>
+        </section>
+        </aside>
 
-    <section class="video-accueil">
-        <h2>Présentation de la dernière mise à jour</h2>
-        <video src="Video/accueil.mp4" controls>
-            <track src="Video/sous-titre-fr.vtt" kind="subtitles" srclang="fr" label="Français" default>
-            <track src="Video/sous-titre-en.vtt" kind="subtitles" srclang="en" label="English">
-        </video>
-    </section>
-    <dl>
-        <dt>A la une</dt>
-        <dt>Nouveautés</dt>
-        <dt>Prochaines mises à jour</dt>
+        <section class="video-accueil">
+            <h2>Présentation de la dernière mise à jour</h2>
+            <video src="Video/accueil.mp4" controls>
+                <track src="Video/sous-titre-fr.vtt" kind="subtitles" srclang="fr" label="Français" default>
+                <track src="Video/sous-titre-en.vtt" kind="subtitles" srclang="en" label="English">
+            </video>
+        </section>
+        <dl>
+            <dt>A la une</dt>
+            <dt>Nouveautés</dt>
+            <dt>Prochaines mises à jour</dt>
 
-            <dd>Ne venons de lancer notre site dédié à Valorant, n'hésitez pas à nous donnez votre avis via notre formulaire de contact !</dd>
-            <dd>Le site est fonctionnel mais certaines fonctionnalités sont encore en développement tel que le système de connexion et d'inscription ainsi que les cartes d'agents contenant l'intégralité des informations à connaitre sur chaque agent de Valorant ! </dd>
-            <dd>Les prochaines mises à jour viseront à ajouter les systèmes de connexion et d'inscription ainsi que les cartes d'agents contenant l'intégralité des informations à connaitre sur chaque agent de Valorant ! En fonction des retours des utilisateurs, d'autres fonctionnalités pourraient être implémentées.</dd>
-    </dl>
-    <footer>
-        <a href="Contact_us/Contact_us.html" class="btn_contact">Contact us</a>
-        <a href="About_us/about_us.html" class="btn_aboutus">About us</a>
-    </footer>
-</body>
+                <dd>Ne venons de lancer notre site dédié à Valorant, n'hésitez pas à nous donnez votre avis via notre formulaire de contact !</dd>
+                <dd>Le site est fonctionnel mais certaines fonctionnalités sont encore en développement tel que le système de connexion et d'inscription ainsi que les cartes d'agents contenant l'intégralité des informations à connaitre sur chaque agent de Valorant ! </dd>
+                <dd>Les prochaines mises à jour viseront à ajouter les systèmes de connexion et d'inscription ainsi que les cartes d'agents contenant l'intégralité des informations à connaitre sur chaque agent de Valorant ! En fonction des retours des utilisateurs, d'autres fonctionnalités pourraient être implémentées.</dd>
+        </dl>
+        <footer>
+            <a href="Contact_us/Contact_us.html" class="btn_contact">Contact us</a>
+            <a href="About_us/about_us.html" class="btn_aboutus">About us</a>
+        </footer>
+    </body>
+</html>

@@ -129,3 +129,25 @@ ul {
      width: 5%;
      margin-right: 5%;
 }
+
+footer{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px 36px;
+    margin-top: auto;
+    border: 1px solid transparent;
+    backdrop-filter: blur(10px);
+    background-color: black;
+}
+
+.btn_aboutus,
+.btn_contact{
+    font-size: 12px;
+    font-weight: bold;
+    font-family: "Barlow", Arial, sans-serif;
+    color: #ECE8E1;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
