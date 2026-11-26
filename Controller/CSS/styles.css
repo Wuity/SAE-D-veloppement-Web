@@ -30,19 +30,24 @@ body{
 }
 
 header {
-    position: sticky;
+    position: relative;
     top : 0;
     overflow-x: scroll;
-    scrollbar-width: none;
+    scrollbar-width: thin;
     z-index: 2;
     width : 99.9%;
-    max-width: 1900px;
     display : flex;
     align-items : center;
     gap : 32px;
     background-color: rgba(0, 0, 0, 0.15);
     backdrop-filter: blur(50px); 
     border : 2px solid #e0e0e0;   
+}
+
+article{
+    display : flex;
+    flex: 4;
+    min-width: 220px;
 }
 
 .valofan{
@@ -60,19 +65,18 @@ header {
     width: 150%;
     min-width: 32px;
     max-width: 50px;
-    margin-left: 5%;
+    margin-left: 50%;
 }
 .classesGrande{
     width: 50%;
     min-width: 50px;
     max-width : 70px;
-    margin-left: 10%;
+    margin-left: 50%;
 }
 
 p{
     margin-left: 5%;
     font-size: 200%;
-    color: white;
     font-weight: bold;
 }
 
@@ -81,41 +85,40 @@ h1{
     border-left: transparent;
     border-bottom: transparent;
     border-top: transparent;
-    color: #ece8e1;
     margin-left: 3%;
     padding-right: 1%;
+    flex : 1;
 }
 
 h2{
     margin: 0;
-    color: #e0e0e0;
     font-size: 32px;
     border : 4px solid #e0e0e0;
     border-left: transparent;
     border-top: transparent;
     border-bottom: transparent;
     padding-right: 1vw;
-}
-
-h3{
-    margin: 0;
-    color: #e0e0e0;
-    font-size: 60px;
+    flex : 2;
 }
 
 .nom {
-    padding-left : 20%;
+    margin: 0;
+    color: #e0e0e0;
+    font-size: 60px;
+    padding-left : 22%;
     padding-right : 27%;
     text-align : center;
+    flex : 3;
 }
 
 section {
-    position :absolute;
+    position :fixed;
     display: flex;
     z-index : 1;
     bottom: 2%;
     height: 85%;
     width : 99%;
+    left : 22%;
 }
 
 .banniere{
@@ -123,7 +126,6 @@ section {
     top : 0;    
     max-width: 25%; 
     min-width: 200px;
-    margin-left: 22%;
 }
 dl {  
     position :sticky;
