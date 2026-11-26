@@ -127,3 +127,12 @@ footer{
     text-decoration: none;
 
 }
+
+button {
+    font-weight: bold;
+    border: 2px solid #e0e0e0;
+    border-radius: 999px; /* forme "pilule" */
+    cursor: pointer;
+    margin-left: 3%;
+    color: red;
+}
