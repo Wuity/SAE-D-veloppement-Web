@@ -158,3 +158,12 @@ dd {
     max-width: 60%;      
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 }
+
+button {
+    font-weight: bold;
+    border: 2px solid #e0e0e0;
+    border-radius: 999px; /* forme "pilule" */
+    cursor: pointer;
+    margin-left: 3%;
+    color: red;
+}
