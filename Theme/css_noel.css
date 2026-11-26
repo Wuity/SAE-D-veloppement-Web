@@ -2,7 +2,7 @@ body::before {
     content: "";
     position: fixed;
     inset: 0; /* occupe tout l'écran */
-    background: url("../images/neige_animee.png") center / cover no-repeat;
+    background: url("../Images/neige_animee.png") center / cover no-repeat;
     pointer-events: none; /* les clics passent à travers */
     z-index: 9999; /* au-dessus du reste du site */
 }
