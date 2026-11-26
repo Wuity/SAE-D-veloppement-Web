@@ -1,238 +1,47 @@
 WEBVTT
-
-00:00:00.000 --> 00:00:03.000
-Quelque chose à dire aux joueurs
-qui n'ont pas encore essayé le mode ?
-
-00:00:03.000 --> 00:00:05.000
-Restez à l'écart si vous n'aimez pas vous amuser.
-
-00:00:05.000 --> 00:00:09.500
-[rires] Non, je plaisante.
-Ne mettez pas ça dans la vidéo.
-
-00:00:10.000 --> 00:00:14.000
-L'idée de Gauntlet Glitched vient de tous les fantasmes
-de joueurs et de ce qu'on voulait faire
-
-00:00:14.000 --> 00:00:18.000
-avec les agents par le passé,
-sans jamais vraiment pouvoir. Donc,
-
-00:00:18.000 --> 00:00:22.000
-trouver une soupape de décompression
-pour être beaucoup plus créatifs
-
-00:00:22.000 --> 00:00:26.000
-et tester ce qu'on essaierait dans un prototype,
-mais dans un cadre plus
-
-00:00:26.000 --> 00:00:29.500
-compétitif, non ? À quoi ça ressemble
-si on utilise trois capacités différentes
-
-00:00:29.500 --> 00:00:34.000
-de trois agents différents contre d'autres joueurs
-en 2v2, dans un style escarmouche
-
-00:00:34.000 --> 00:00:38.000
-et on a monté une petite équipe pour notre Thunderdome
-et on l'a construit petit à petit.
-
-00:00:38.000 --> 00:00:43.000
-Le Thunderdome est un hackathon de trois jours que Riot organise
-chaque année, où les devs peuvent se réunir
-
-00:00:43.000 --> 00:00:47.000
-avec leurs amis, former une équipe
-et créer rapidement un
-
-00:00:47.000 --> 00:00:51.000
-petit jeu en moins de 72 heures. On a réussi à sortir
-un premier prototype jouable très fun
-
-00:00:51.000 --> 00:00:54.000
-et on organise beaucoup de playtests
-
-00:00:54.000 --> 00:00:58.000
-pendant ces trois jours, avant
-la science fair.
-
-00:00:58.000 --> 00:01:02.000
-C'est un 2v2v2v2, donc huit personnes.
-On avait huit PC installés.
-
-00:01:02.000 --> 00:01:05.500
-Les gens se jetaient dedans. Beaucoup disaient :
-« Mais c'est quoi ce truc ? »
-
-00:01:05.500 --> 00:01:08.500
-Je crois que pouvoir être créatif
-plaisait à beaucoup de monde.
-
-00:01:08.500 --> 00:01:11.000
-Il y avait beaucoup d'enthousiasme et de joie,
-beaucoup de cris.
-
-00:01:11.000 --> 00:01:14.500
-Yo. Oh, c'était une idée géniale.
-
-00:01:15.000 --> 00:01:19.000
-Tous ceux d'entre nous qui étaient sur le plateau à tester
-savaient qu'il y avait quelque chose de prometteur.
-
-00:01:19.000 --> 00:01:22.000
-C'était aussi à peu près au moment
-où on travaillait sur Skirmish,
-
-00:01:22.000 --> 00:01:26.000
-non ? Skirmish allait sortir,
-un mode 2v2 lui aussi,
-
-00:01:26.000 --> 00:01:30.000
-et l'Ability Draft ressemblait presque au niveau suivant,
-et ils étaient déjà en train de le prototyper, et
-
-00:01:30.000 --> 00:01:34.000
-on s'est dit : « Oh waouh, c'est vraiment génial. »
-
-00:01:34.000 --> 00:01:39.000
-Et un vrai signe, c'était d'entendre les gens sur le plateau
-demander où ils pouvaient jouer au mode.
-
-00:01:39.000 --> 00:01:45.000
-On voit les gens continuer à le tester
-après la période Thunderdome, après la science fair.
-
-00:01:45.000 --> 00:01:49.000
-Les devs continuent de corriger les bugs après le Thunderdome.
-Et c'est là qu'on se dit :
-
-00:01:49.000 --> 00:01:53.000
-« Oh, il y a quelque chose à creuser. »
-Nice bumbas.
-
-00:01:53.000 --> 00:01:56.000
-C'était énorme. [rires]
-
-00:01:56.000 --> 00:01:59.500
-Peu après, on a fait la planification annuelle
-de ce qu'on allait faire en 2026.
-
-00:01:59.500 --> 00:02:02.000
-Et comme on savait que
-
-00:02:02.000 --> 00:02:06.000
-on avait un mode de jeu très prometteur et un bon schéma de jeu,
-et qu'on allait se concentrer sur les modes cette année,
-
-00:02:06.000 --> 00:02:08.500
-on s'est dit : « OK, faisons ça,
-
-00:02:08.500 --> 00:02:11.000
-et ce sera probablement l'apogée
-de tous les modes qu'on sort. »
-
-00:02:11.000 --> 00:02:14.000
-Le défi suivant pour nous était
-de savoir comment ajouter de la profondeur.
-
-00:02:14.000 --> 00:02:17.000
-Ça a commencé avec seulement huit personnes,
-et on est passés à
-
-00:02:17.000 --> 00:02:22.000
-huit équipes. On avait un 2v2v2v2,
-mais maintenant c'est du 2v2v2v2v2v2v2v2.
-
-00:02:22.000 --> 00:02:26.000
-Donc 16 joueurs ont ajouté énormément de profondeur.
-
-00:02:26.000 --> 00:02:29.500
-Et puis les capacités elles-mêmes,
-on n'en avait que sept par—
-
-00:02:29.500 --> 00:02:32.000
-Je ne crois même pas qu'on avait des ultimes.
-Peut-être qu'on en avait.
-
-00:02:32.000 --> 00:02:36.000
-Et si, par exemple, un Wingman était plus gros
-et avait plus de vie ?
-
-00:02:36.000 --> 00:02:40.000
-Et si le chien de Skye vous tuait en une seule morsure ?
-Et on
-
-00:02:40.000 --> 00:02:44.000
-a fini avec cette liste des idées les plus folles.
-Et la liste n'arrêtait pas de s'allonger.
-
-00:02:44.000 --> 00:02:48.000
-Et on s'est dit : il doit bien y avoir
-un moyen
-
-00:02:48.000 --> 00:02:52.000
-systématique d'intégrer toute cette liste
-d'idées spéciales dans le jeu.
-
-00:02:52.000 --> 00:02:56.000
-Et c'est là qu'on a eu l'idée
-de prendre Glitched comme thème.
-
-00:02:56.000 --> 00:02:59.500
-Il y aura deux niveaux, non ?
-C'est : qu'est-ce que je peux faire de dingue ?
-
-00:02:59.500 --> 00:03:03.000
-Et puis on réalise que tout tourne autour des duos :
-comment permettre à mon duo de faire
-
-00:03:03.000 --> 00:03:07.000
-un truc de dingue ? Ce qu'on a vraiment hâte de voir,
-c'est les gens faire du theory crafting
-
-00:03:07.000 --> 00:03:11.000
-pour trouver quelles combinaisons marchent le mieux,
-construire leur propre agent et vivre
-
-00:03:11.000 --> 00:03:14.500
-ce fantasme à fond. Je veux voir des actions folles.
-
-00:03:14.500 --> 00:03:19.500
-On s'est beaucoup amusés à le tester en interne,
-mais nos joueurs nous surprennent toujours.
-
-00:03:20.000 --> 00:03:24.000
-Et puis, est-ce que les joueurs aiment que
-le jeu soit aussi déjanté ? Ont-ils d'autres façons
-
-00:03:24.000 --> 00:03:29.000
-d'utiliser d'autres capacités, lesquelles,
-et comment peut-on les aider à y arriver ?
-
-00:03:29.000 --> 00:03:33.500
-Je le vois presque comme notre lettre d'amour
-à nos agents Valorant et à leurs capacités.
-
-00:03:33.500 --> 00:03:37.000
-Vous savez, on voulait
-
-00:03:37.000 --> 00:03:41.000
-offrir un moyen de les vivre pleinement
-et de vraiment réaliser ce fantasme.
-
-00:03:41.000 --> 00:03:44.000
-Et j'espère vraiment que les joueurs vont en profiter.
-
-00:03:44.000 --> 00:03:48.000
-Jouez au mode. Parlez-en à vos amis.
-Jouez avec vos amis.
-
-00:03:48.000 --> 00:03:52.000
-Parlez-en à vos parents. À tout le monde.
-Faites jouer tout le monde à Gauntlet Glitched,
-
-00:03:52.000 --> 00:03:58.000
-s'il vous plaît, pour qu'on puisse continuer à travailler dessus.
-On adorerait en faire plus pour ce mode.
+ 
+00:00:04.000 --> 00:00:09.000
+On a vu les clips de folie et les clutchs sur Skirmish,
+et on adore cette énergie compétitive.
+ 
+00:00:09.000 --> 00:00:14.000
+Alors on tente quelque chose de nouveau et on monte les enjeux.
+Voici Skirmish Ascension.
+ 
+00:00:14.000 --> 00:00:23.000
+C'est notre nouvelle version limitée dans le temps du mode. Avec un pool d'agents
+sélectionnés, aux capacités choisies, et un classement expérimental bientôt disponible,
+au début de l'Acte 3 avec le patch
+ 
+00:00:23.000 --> 00:00:32.000
+12.08, on veut voir comment vous vous débrouillez dans un mode à enjeux plus élevés
+qui reste fidèle à l'identité de VALORANT.
+Cette fois, on vous propose des files en 1v1 et en 2v2.
+ 
+00:00:32.000 --> 00:00:39.000
+Le roster limité comprend des agents comme Jett, Waylay, Chamber, Phoenix
+et plusieurs autres, chacun avec une capacité
+ 
+00:00:39.000 --> 00:00:47.000
+de son kit. Donc, ce n'est pas seulement une question de visée,
+mais aussi de prise de décision. Préparez-vous à lancer des flashs.
+ 
+00:00:47.000 --> 00:00:55.000
+Les armes sont réparties par phases de round : manches de pistolet avec Bandit et Sheriff,
+puis Bulldog et Guardian, et pendant la
+ 
+00:00:55.000 --> 00:01:03.000
+majorité de la partie, Vandal et Phantom.
+ 
+00:01:03.000 --> 00:01:10.000
+Le classement est hébergé sur le site For the Win, où vous pouvez suivre votre progression,
+voir votre rang et vous situer par rapport aux autres. Et vous pouvez gagner des récompenses en
+ 
+00:01:10.000 --> 00:01:18.000
+connectant votre compte et en jouant. Rendez-vous sur le site pour plus de détails.
+Votre accueil de Skirmish a été génial. On voulait donc essayer quelque chose de nouveau
+et vous le proposer au plus vite.
+ 
+00:01:18.000 --> 00:01:25.000
+Alors lancez-vous et dites-nous ce que vous en pensez.
+ 
