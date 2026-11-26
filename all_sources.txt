@@ -2,6 +2,10 @@ Pour les icones d'agens ainsi que toutes leurs bannieres :
 
 Wiki valorant : https://wiki.playvalorant.com/en-us/
 
+et pour les fonds d'écrans des pages de chacun agent nous avons utilisés :
+
+https://www.magnific.com/backgrounds#from_element=images_trends
+
 Pour les fond d'écrans de la page d'accueil, du contact us et du about us :
 
 https://in.pinterest.com/rshivansh094/valorant/
@@ -10,3 +14,4 @@ https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Fwiki.playvalo
 
 Pour la documentation, nous avons utilisé le site de ma MDN :
 https://developer.mozilla.org/fr/docs/Web/HTML
+https://developer.mozilla.org/fr/docs/Web/CSS
