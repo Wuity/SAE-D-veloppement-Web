@@ -115,6 +115,21 @@ h1{
     color: #ECE8E1;
 }
 
+.video-acceuil video {
+    width: 100%;
+    max-width: 800px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 16px;
+}
+
+video::cue {
+    font-family: "Barlow", Arial, sans-serif;
+    font-size: 20px;
+    color: #ECE8E1;
+    background-color: rgba(15, 25, 35, 0,8);
+}
+
 body{
     background-image : url(Images/Valorant_Cover_Art_122e62a9-938d-47cb-8399-bc84cfa0cf39.webp);
     background-size: cover;
