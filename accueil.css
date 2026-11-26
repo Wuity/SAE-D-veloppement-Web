@@ -19,6 +19,15 @@ h1{
     
 }
 
+h2{
+    color: #ECE8E1;
+    font-family: "Barlow", Arial, sans-serif;
+    font-size: 45px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
+}
+
 .valofan{
     color:#ECE8E1;
     text-decoration: none;
@@ -115,6 +124,78 @@ h1{
     color: #ECE8E1;
 }
 
+.popup {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 1000;
+    align-items: center;
+    justify-content: center;
+}
+
+.popup:target {
+    display: flex;
+}
+
+.popup-fond {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    cursor: default;
+}
+
+.popup-boite {
+    position: relative;
+    max-width: 420px;
+    margin: 0 20px;
+    padding: 32px;
+    background-color: #0F1923;
+    border: 2px solid #FF4655;
+    border-radius: 16px;
+    text-align: center;
+    color: #ECE8E1;
+    font-family: "Barlow", Arial, sans-serif;
+}
+
+.popup-titre {
+    margin: 0 0 12px;
+    font-family: "Barlow Condensed", Arial, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #FF4655;
+}
+
+.popup-fermer {
+    display: inline-block;
+    margin-top: 16px;
+    padding: 10px 28px;
+    font-family: "Barlow Condensed", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ECE8E1;
+    background-color: #FF4655;
+    border-radius: 8px;
+}
+
+.popup-fermer:hover {
+    background-color: #ff6b77;
+}
+
+.video-accueil {
+    display: block;
+    background-color: rgba(15, 25, 35, 0.8);
+    border: 2px solid #FF4655;
+    margin-right: 30vh;
+    margin-left: 30vh;
+    margin-top: 10vh;
+    padding-top: 3vh;
+    justify-content: center;
+    align-items: center;
+}
+
 .video-accueil video {
     width: 100%;
     max-width: 800px;
@@ -146,7 +227,7 @@ dl{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap : 0px 20px;
-    margin: 450px 20px 20px 20px;
+    margin: 25vh 20px 20px 20px;
 }
 
 dt{
@@ -209,4 +290,21 @@ footer{
     text-transform: uppercase;
     text-decoration: none;
 
+}
+
+@media(max-width:800px) {
+    dl {
+        grid-template-columns: 1fr;
+    }
+
+    dt:nnth-of-type(1) { order: 1; }
+    dd:nnth-of-type(1) { order: 2; }
+    dt:nnth-of-type(2) { order: 3; }
+    dd:nnth-of-type(2) { order: 4; }
+    dt:nnth-of-type(3) { order: 5; }
+    dd:nnth-of-type(3) { order: 6; }
+
+    dd {
+        margin-bottom: 20px;
+    }
 }
