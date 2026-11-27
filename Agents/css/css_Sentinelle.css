@@ -3,7 +3,7 @@ header {
     font-family: "Barlow", Arial, sans-serif;
     align-items: center;
     gap: 10px;
-    border: 5px solid #e0e0e0;
+    border: 2px solid #e0e0e0;
     backdrop-filter: blur(10px);
 }
 
