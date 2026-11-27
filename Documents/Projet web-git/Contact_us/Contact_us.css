@@ -1,0 +1,313 @@
+header{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top:0;
+    gap: 32px;
+    border : 4px solid transparent;
+    padding: 16px 32px;
+    backdrop-filter: blur(10px);
+}
+h1{
+    border: 4px solid #ECE8E1;
+    color:white;
+    font-family: "Barlow", Arial, sans-serif;
+    padding-right: 16px;
+    border-top: transparent;
+    border-bottom: transparent;
+    border-left: transparent; 
+}
+
+.valofan{
+    color: #ECE8E1;
+    text-decoration: none;
+}
+
+h2{
+    color: white;
+    font-family: "Barlow", Arial, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    padding-top: 5%;
+}
+
+h3{
+    margin: 0;
+    padding-top: 38px;;
+    color: white;
+    font-family: "Barlow", Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+h5{
+    margin:0;
+    padding-top: 38px;
+    color:white;
+    font-family: "Barlow", Arial, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+
+
+}
+
+p {
+    color:white;
+    font-family: "Barlow", Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.lieninsta {
+    color: white;
+    font-family: "Barlow", Arial, sans-serif;
+    font-size: 18px;
+}
+
+.liengit {
+    color: white;
+    font-family: "Barlow", Arial, sans-serif;
+    font-size: 18px;
+}
+
+.menu{
+    position: relative;
+    flex: 1;
+    max-width: 500px;
+}
+
+.menu-titre{
+    display: block;
+    font-family: "Barlow Condensed", Arial, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #ECE8E1;
+    background-color: #0F1923;
+    border: 2px solid #FF4655;
+    border-radius: 8px;
+    padding: 10px 44px 10px 16px;
+    cursor: pointer;
+}
+
+.menu-liste{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    background-color: #0f1923;
+    border : 2px solid transparent;
+    border-radius: 8px;
+    z-index: 10;
+}
+
+.menu:hover .menu-liste {
+    display: block;
+}
+
+.menu-liste a {
+    display: block;
+    padding: 10px 16px;
+    font-family: "Barlow Condensed", Arial, sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #ECE8E1;
+}
+
+.menu-liste a:hover {
+    background-color: #FF4655;
+}
+
+.btn-login,
+.btn-signup{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: "Barlow", Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    text-decoration: none;
+    padding: 10px 28px;
+    border: 2px solid;
+    border-radius:8px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.btn-login {
+    background-color: #ff6b77;
+    border-color: #ff6b77;
+    color:#ECE8E1;
+    margin-left: auto;
+}
+
+.btn-login:hover {
+    background-color: #ECE8E1;
+    border-color: #ff6b77;
+    color: #ff6b77;
+}
+
+.btn-signup {
+    background-color: #ECE8E1;
+    border-color: #ECE8E1;
+    color: #ff6b77;
+}
+
+.btn-signup:hover {
+    background-color: #FF4655;
+    color: #ECE8E1;
+}
+
+body{
+    background-image : url(../Images/Sova_wallpaper.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    min-height: max(100vh, 700px);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 38px;
+}
+
+h4{
+    color:white;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: "Barlow", Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+label{
+    color: white;
+    font-family: "Barlow", Arial, sans-serif;
+    font-size: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(15, 25, 35, 0.8);
+    border: 2px solid #FF4655;
+    border-radius: 16px;
+    margin: auto;
+    gap: 16px;
+    padding: auto auto 48px auto;
+    font-family: "Barlow", Arial, sans-serif;
+}
+
+
+#nom,
+#email{
+    color:#0F1923;
+    max-height: 20px;
+    font-size: 18px;
+    font-family: "Barlow", Arial, sans-serif;
+    text-align: center;
+    padding: auto;
+    border: transparent;
+    border-radius: 18px;
+}
+
+#nom:focus,
+#email:focus{
+    border: 2px solid transparent;
+}
+
+legend{
+    color: white;
+}
+
+input[type="radio"]{
+    accent-color: red;
+}
+
+#sujet{
+    color:#ff6b77;
+    height: 36px;
+    width: 100px;
+    text-align: center;
+    font-size: 18px;
+    border: 2px solid transparent;
+    border-radius: 12px;
+
+}
+
+#sujet:hover{
+    background-color:#1c2a38 ;
+}
+
+textarea{
+    width: 40%;
+    height: 32%;
+    font-family: "Barlow", Arial, sans-serif;
+
+}
+
+
+dl{
+    display: grid;
+    text-align: center;
+    grid-template-rows: repeat(1, 1fr);
+    gap : 0px;
+    margin: auto;
+}
+
+dt{
+    margin:0;
+    padding: 3%;
+    padding-bottom: 1%;
+    color:white;
+    font-size : 22px;
+    font-family: "Barlow", Arial, sans-serif;
+    text-align: center;
+}
+
+dd{
+    margin: 0;
+    padding: 10px;
+    padding-top: 0%;
+    color:white;
+    font-family: "Barlow", Arial, sans-serif;
+    text-align: center;
+
+}
+
+button{
+    color:red;
+    text-align: center;
+    font-family: "Barlow", Arial, sans-serif;
+    height: 32px;
+    width: 98px;
+
+}
+
+button:hover{
+    background-color: #0F1923;
+}
+
+hmtl{
+    scroll-behavior: smooth;
+}
+
+button {
+    font-weight: bold;
+    border: 2px solid #e0e0e0;
+    border-radius: 999px; /* forme "pilule" */
+    cursor: pointer;
+    margin-left: 3%;
+    color: red;
+}
